@@ -2,7 +2,9 @@
 
  namespace app\Entity;
 
- class Vaga{
+use app\Db\database;
+
+class Vaga{
 
      /**
       * Identificador único da vaga
@@ -32,4 +34,23 @@
       * @var string;
       */
      public $data;
+
+     /**
+      * Método responsável por cadastrar uma nova vaga no BD.
+      * @return boolean
+      */
+
+     public function cadastrar(){
+         //DEFINIR A DATA
+         $this->data = date('Y-m-d H:i:s');
+
+         //INSERIR A VAGA NO BANCO
+         $obDatabase = new database('vagas');
+         echo "<pre>"; print_r($obDatabase); echo "</pre>"; exit;
+
+         //ATRIBUIR O ID DA VAGA NA INSTÂNCIA
+
+         //RETORNAR SUCESSO
+
+     }
  }

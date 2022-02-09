@@ -10,8 +10,8 @@ require __DIR__.'/vendor/autoload.php';
       $obVaga->titulo    = $_POST['titulo'];
       $obVaga->descricao = $_POST['descricao'];
       $obVaga->ativo     = $_POST['ativo'];
+      $obVaga->cadastrar();
         
-    echo "<pre>";print_r($_POST);"</pre>";
                   
 }
 

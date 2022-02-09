@@ -1,0 +1,22 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open maldicao.html",
+            "file": "/var/www/html/html-guanabara/maldicao.html"
+        }
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "/var/www/html/html-guanabara/projeto-glass-html5/index.html"
+        }
+    ]
+}

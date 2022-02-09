@@ -5,28 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Chrome",
-            "request": "launch",
             "type": "pwa-chrome",
-            "url": "http://localhost/vagas/index.php",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost/peladeiros",
             "webRoot": "${workspaceFolder}"
         },
-
-        // {
-        // "name": "Launch Chrome",
-        //      "request": "launch",
-        //      "type": "pwa-chrome",
-        //      "url": "http://localhost/vagas/cadastrar.php",
-        //      "webRoot": "${workspaceFolder}"
-        //  },
-        
         {
             "name": "Listen for Xdebug",
             "type": "php",
             "request": "launch",
             "port": 9003
         },
-        
         {
             "name": "Launch currently open script",
             "type": "php",
